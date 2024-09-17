@@ -1,0 +1,41 @@
+/* home.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  h1 {
+    color: #2e3b4e;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #556b8e;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  img {
+    display: block;          /* Convertimos la imagen en bloque */
+    margin: 0 auto;           /* Esto la centra horizontalmente */
+    max-width: 200px;         /* Limita el ancho máximo de la imagen */
+    width: 100%;              /* Se ajusta automáticamente al tamaño del contenedor */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }

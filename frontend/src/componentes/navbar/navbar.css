@@ -1,0 +1,32 @@
+/* navbar.css */
+
+.navbar {
+    background-color: #333;  /* Color de fondo oscuro */
+    padding: 10px 20px;      /* Espaciado alrededor del navbar */
+  }
+  
+  .navbar-menu {
+    list-style-type: none;   /* Eliminar los puntos de lista */
+    margin: 0;
+    padding: 0;
+    display: flex;           /* Alineación horizontal de las opciones */
+    justify-content: center; /* Centrar el menú */
+  }
+  
+  .navbar-menu li {
+    margin: 0 15px;          /* Espaciado entre los elementos */
+  }
+  
+  .navbar-menu a {
+    color: white;            /* Color del texto */
+    text-decoration: none;   /* Eliminar subrayado en los enlaces */
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease; /* Transición suave */
+  }
+  
+  .navbar-menu a:hover {
+    background-color: #555;  /* Color de fondo cuando se pasa el mouse */
+    border-radius: 5px;      /* Bordes redondeados al hacer hover */
+  }
+  

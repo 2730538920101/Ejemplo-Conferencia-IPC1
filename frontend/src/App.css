@@ -1,0 +1,41 @@
+/* App.css */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal que cubre toda la pantalla */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* La barra de navegación fija en la parte superior */
+.navbar-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10%; /* El 10% de la pantalla */
+  background-color: #333; /* Color de fondo predeterminado */
+  z-index: 10; /* Para que siempre quede por encima del contenido */
+}
+
+/* Contenedor principal del contenido (Panel) */
+.content-container {
+  margin-top: 10%; /* Compensa la altura de la navbar */
+  height: 90%; /* El resto de la pantalla */
+  padding: 20px;
+  background-color: #f9f9f9; /* Color de fondo del contenido */
+  overflow-y: auto; /* Permite scroll si el contenido es largo */
+}
